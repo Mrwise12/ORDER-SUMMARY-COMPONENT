@@ -1,0 +1,138 @@
+body{
+  background: url(../images/pattern-background-desktop.svg) no-repeat;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+}
+
+.main-cont{
+  background-color: hsl(225, 100%, 98%);
+  width: 350px;
+  height: 550px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 25px;
+
+}
+
+.picture{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.p1{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.p2{
+ text-align: center;
+ font-size: 15px;
+ padding: 15px 15px 5px 15px;
+ opacity: .8;
+}
+
+.con{
+  
+  padding: 20px;
+  background-color: hsla(224, 23%, 55%, 0.092);
+  margin: 25px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  position: relative;
+}
+
+.ap{
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  font-weight: 900;
+  font-size: 1.2rem;
+
+
+}
+
+.numb{
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  opacity: .7;
+
+}
+
+.change{
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  font-weight: bold;
+}
+
+.link{
+  text-decoration: underline;
+  color:hsl(245, 75%, 52%) ;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: hsl(251, 70%, 68%);
+}
+
+.button{
+  border: none;
+  color: hsl(225, 100%, 98%);
+  font-weight: 800;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+  width: 300px;
+  padding: 15px;
+  margin-left: 25px;
+  box-shadow: 5px 5px 10px hsla(245, 75%, 52%, 0.462);
+ 
+}
+
+.button:hover{
+  background-color: hsl(251, 70%, 68%);
+}
+
+.cancel{
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  
+}
+
+.line{
+  color: hsl(224, 23%, 55%);
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.line:hover{
+  text-decoration: none;
+  color:hsl(223, 47%, 23%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+  body{
+    background: url(../images/pattern-background-mobile.svg) no-repeat;
+    background-size: cover;
+  }
+}
